@@ -1,0 +1,355 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-bottom: 10px;
+}
+
+
+.header {
+	display: none;
+}
+
+/*.micon {
+	float: right;
+	height: 20px;
+	width: 20px;
+	background: url(../image/i-menu.png) no-repeat;
+	display: none;
+	margin: 18px 16px 0 0;
+	cursor: pointer;
+}
+*/
+.about-top {
+	height: 517px;
+	width: 100%;
+	background: url(../image/companyIntroductionx.png) no-repeat;
+	background-size: cover;
+}
+
+.about-top-text {
+	color: #fff;
+	margin: 90px 0 0 15%;
+}
+
+.about-top-text h2 {
+	font-weight: normal;
+	font-size: 36px;
+	margin-top: 60px;
+}
+
+.about-top-text p {
+	font-size: 30px;
+}
+
+/*企业介绍主要内容*/
+.content-text {
+	width: 75%;
+	line-height: 24px;
+	margin: 0 auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: #666;
+}
+
+.about {
+	display: none;
+}
+
+.culture-text p {
+	width: 88%;
+	margin: 40px auto 90px;
+	color: #666;
+	line-height: 23px;
+	text-align: center;
+	white-space: pre-line;
+}
+
+.join-wrapper {
+	width: 80%;
+	margin: 3% auto;
+}
+
+.join-top {
+	width: 1080px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.join-top a {
+	float: left;
+	width: 120px;
+	line-height: 72px;
+	text-align: center;
+	font-size: 16px;
+	color: #333;
+}
+
+.join-top a:hover {
+	color: #1b82e2;
+}
+
+.join-top .join-active {
+	color: #1b82e2;
+}
+
+.join-center {
+	background: #F0F0F0;
+	width: 100%;
+	height: 72px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.join-center span {
+	float: left;
+	line-height: 72px;
+	font-size: 18px;
+	color: #333;
+	width: 20%;
+	text-align: center;
+}
+
+.join-bottom p {
+	line-height: 100px;
+	text-align: center;
+}
+
+/*联系我们主要内容*/
+.phone-email {
+	margin: 50px auto;
+	height: 60px;
+	width: 700px;
+	text-align: center;
+}
+
+.phone-email>div {
+	width: 225px;
+	height: 55px;
+}
+
+.phone-email a {
+	color: #272727;
+	font-size: 16px;
+	height: 55px;
+	display: inline-block;
+	line-height: 55px;
+}
+
+.phone-email img {
+	vertical-align: top;
+	height: 55px;
+}
+
+.connect-phone {
+	float: left;
+}
+
+.connect-email {
+	float: right;
+}
+
+.connect-content {
+	width: 25%;
+	float: left;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.connect-img {
+	width: 258px;
+	height: 380px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+}
+
+.img-text {
+	padding: 9px;
+	color: #333;
+}
+
+.img-text h4 {
+	text-align: center;
+	font-size: 18px;
+}
+
+.img-text p {
+	margin-top: 10px;
+	padding: 0 5px;
+	color: #666;
+}
+/*地图部分*/
+.map-nav {
+	width: 100%;
+	text-align: center;
+	margin:30px auto 50px;
+}
+
+.map-nav a {
+	width: 100px;
+	display: inline-block;
+	font-size: 16px;
+	padding: 0 20px;
+	color: #272727;
+	height: 22px;
+}
+
+.map-nav a:hover {
+	color:#1b82e2;
+}
+
+.map-nav a.map-active {
+	color:#1b82e2;
+}
+
+.map-nav a img {
+	display: none;
+	vertical-align: middle;
+}
+
+.nav-all {
+	display: none;
+}
+
+#allmap {
+	height: 400px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+@media screen and (max-width: 767px) {
+	.phone-email {
+		margin: 50px auto;
+		height: 60px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.header {
+		display: block;
+	}
+
+	.header-navbar {
+		display: none;
+	}
+
+	/*.micon {
+		display: block;
+		height: 20px;
+		width: 20px;
+		background-size: 100%;
+		margin: 18px 16px 0 0;
+	}*/
+
+	.about-top {
+		background: url(../image/companyIntroductionx.jpg) no-repeat;
+	}
+
+	.about-top-text {
+		color: #fff;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.about-top-text h2 {
+		font-weight: bold;
+		font-size: 1.5625rem/* 50px */;
+		margin-top: 2.5rem/* 80px */;
+	}
+
+	.about-top-text p {
+		font-size: 1.25rem/* 40px */;
+	}
+
+	/*固定导航栏*/
+	.fix-nav {
+		height: 50px;
+	}
+
+	.fix-nav ul li {
+		line-height: 50px;
+	}
+
+	.fix-nav a {
+		padding: 15px 4px;
+	}
+
+	.connect-phone {
+		float: none;
+		margin: 10px auto;
+	}
+
+	.connect-email {
+		float: none;
+		margin: 10px auto;
+	}
+
+	.phone-email {
+		text-align: center;
+	}
+
+	.connect-content {
+		margin-top: 50px;
+		width: 50%;
+		text-align: center;
+	}
+
+	.connect-content .img-text {
+		/*display: none;*/
+	}
+
+	.connect-img img {
+		width: 100%;
+	}
+
+	.content-wrapper {
+		margin: 0 auto;
+		width: 100%;
+		overflow: hidden;
+		height: auto;
+	}
+
+	.connect-img {
+		height: 229px;
+	}
+
+	/*地图*/
+	.map-nav a {
+		width: 55px;
+		display: inline-block;
+		font-size: 13px;
+		padding: 0 5px;
+		color: #272727;
+		height: 22px;
+	}
+
+	.nav-all {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+}
+
+
+

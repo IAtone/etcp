@@ -1,0 +1,513 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: rgb(39,39,39);
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	border: none;
+}
+
+.active {
+	display: inline-block !important;
+}
+
+.container {
+	width: 1170px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.header {
+	max-width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	margin: 15px 0 0 20px;
+	float: left;
+}
+
+.logo a {
+	display: inline-block;
+	background: url(../image/logo-o.png) no-repeat;
+	height: 52px;
+	width: 142px;
+}
+
+.content-img img {
+	width: 100%;
+}
+
+.micon {
+	float: right;
+	height: 20px;
+	width: 20px;
+	background: url(../image/i-menu.png) no-repeat;
+	display: none;
+	margin: 18px 16px 0 0;
+	cursor: pointer;
+}
+
+/*头部导航栏*/
+.header-navbar {
+	height: 80px;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.navbar-logo {
+	float: left;
+	margin: 15px 0 0 20px;
+}
+
+.navbar-right {
+	float: right;
+	height: 80px;
+	width: 515px;
+	padding: 0 15px;
+	line-height: 80px;
+}
+
+.navbar-right li {
+	float: left;
+}
+
+.navbar-right li a {
+	display: inline-block;
+	font-size: 16px;
+	padding: 0 15px;
+	color: #000;
+}
+
+.navbar-right li a:hover {
+	color: #1b82e2;
+}
+
+.navbar-right li a.navbar-active {
+	color: #1b82e2;
+}
+
+/*固定导航*/
+.fix-nav-wrapper {
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid #ccc;
+}
+
+.fix-nav {
+	height: 80px;
+	width: 840px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.fix-nav ul li {
+	float: left;
+	line-height: 80px;
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+}
+
+.fix-nav a {
+	padding: 30px 34px;
+	background: #fff;
+	color: #666;
+}
+
+.fix-nav a:hover {
+	background: #1B82E2;
+	color: #fff;
+}
+
+.fix-nav .fix-nav-active {
+	background: #1B82E2;
+	color: #fff;
+}
+
+/*app下载展示区域*/
+.download-app-title {
+	margin: 50px 0 20px;
+	height: 80px;
+	text-align: center;
+}
+
+.download-app-title h2 {
+	font-size: 28px;
+	font-weight: normal;
+	color: #000;
+}
+
+.download-app-title p {
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: #000;
+}
+
+.download-app-title .blue-line {
+	background-color: #3494ff;
+	width: 100px;
+	height: 2px;
+	display: inline-block;
+}
+
+/*底部*/
+.footer {
+	width: 100%;
+	overflow: hidden;
+	background: #333;
+	padding: 30px 0 15px;
+	color: #fff;
+}
+
+.footer .footer-logo {
+	margin-bottom: 30px;
+}
+
+.footer .footer-logo span {
+	float: left;
+	display: inline-block;
+	width: 90px;
+	height: 22px;
+}
+
+.footer .footer-logo span.logo-img {
+	margin-left: 111px;
+	width: 70px;
+	background: url(../image/logos.png) left 3px no-repeat;
+}
+
+.footer .footer-logo span a {
+	color: #fff;
+	font-size: 16px;
+	display: inline-block;
+	width: 200px;
+}
+
+
+.footer ul.common {
+	display: none;
+}
+
+.footer .copyright {
+	/*display: none;*/
+	text-align: center;
+	font-size: 14px;
+}
+
+.footer .copyright .jba {
+	width: 18px;
+}
+
+/*.footer .footer-content {
+	margin: 0 auto;
+	width: 1170px;
+	}*/
+
+	.footer .line {
+		margin: 0 20px;
+		border-top: solid 1px #272727;
+		height: 2px;
+		background: #3e3e3e;
+		position: relative;
+		top: 34px;
+	}
+
+	.footer-content h3 {
+		font-size: 16px;
+		padding-bottom: 28px;
+	}
+
+	.footer-content ul {
+		height: auto;
+		overflow: hidden;
+	}
+
+	.footer-content ul li {
+		float: left;
+		margin: 0 5% 0 0;
+	}
+
+	.footer-content ul li.left {
+		margin-left: 110px;
+	}
+
+	.footer .content-link a {
+		display: block;
+		color: #a8a8a8;
+		line-height: 24px;
+	}
+
+	.footer .content-link a:hover {
+		color: #fff;
+	}
+
+	.footer .footer-content ul li .wx {
+		margin-right: 10px;
+	}
+
+	.footer .code {
+		margin-top: 5px;
+		display: none;
+	}
+
+	.footer .friend {
+		margin-top: 30px;
+		padding: 30px 15px 0 15px;
+		border-top: 1px solid #404040;
+	}
+
+	.friend-content {
+		margin: 0 auto;
+		width: 950px;
+	}
+
+	.friend p {
+		font-size: 16px;
+		color: #999;
+	}
+
+	.friend-link a {
+		display: inline-block;
+		margin-left: 20px;
+		margin-bottom: 20px;
+		width: 102px;
+		height: 48px;
+		opacity: 0.5;
+		transition: 1s;
+	}
+
+	.friend-link a:hover {
+		opacity: 1;
+	}
+
+	@media screen and (max-width: 767px) {
+		/*.header {
+			display: block;
+			}*/
+
+			/*公共导航栏部分*/
+			ul.common {
+				height: auto;
+				/*overflow: hidden;*/
+				margin: 20px;
+				padding-bottom: 1.25rem/* 40px */;
+			}
+
+			ul.common li {
+				line-height: 42px;
+				border-bottom: solid 1px #fff;
+				font-size: 16px;
+				position: relative;
+			}
+
+			ul.common li a {
+				color: #fff;
+			}
+
+			ul.common li em {
+				background: url(../image/add.png) no-repeat;
+				position: absolute;
+				width: 20px;
+				height: 20px;
+				right: 10px;
+				top: 16px;
+				cursor: pointer;
+				background-size: 100%;
+			}
+
+			.sub {
+				background: url(../image/add.png) no-repeat !important;
+				background-size: 100% !important;
+			}
+
+			ul.common dl {
+				display: none;
+				padding-bottom: 10px;
+				margin-left: 20px;
+			}
+
+			ul.common dd {
+				line-height: 40px;
+				border-bottom: solid 1px #fff;
+			}
+
+			ul.common .no-border {
+				border: none;
+			}
+
+			/*logo样式*/
+			.logo {
+				margin: 15px 0 0 20px;
+			}
+			.logo a {
+				width: 90px;
+				height: 39px;
+				background-size: 100%;
+			}
+
+			.micon {
+				display: block;
+				height: 20px;
+				width: 20px;
+				background-size: 100%;
+				margin: 18px 16px 0 0;
+			}
+
+			.container {
+				width: 100%;
+			}
+
+			.footer {
+				padding: .9375rem/* 30px */ 0 .46875rem/* 15px */;
+			}
+
+			.footer ul.common {
+				padding-bottom: 0;
+				display: block;
+			}
+
+			.footer ul.common li a {
+				font-size: 16px;
+			}
+
+			.footer ul.common li dl a {
+				color: #a8a8a8;
+				font-size: 14px;
+			}
+
+			.footer ul.common li dl {
+				color: #a8a8a8;
+				font-size: 14px;
+			}
+
+			.footer ul.common p {
+				margin-top: 10px;
+				line-height: 15px;
+			}
+
+			.footer ul.common li.contact {
+				line-height: 20px;
+				margin-top: 15px;
+			}
+
+			.footer ul.common p a {
+				font-size: 14px;
+				color: #a8a8a8;
+			}
+
+			.footer ul.common li a.wx {
+				margin-right: .3125rem/* 10px */;
+			}
+
+			.footer .copyright {
+				text-align: center;
+				line-height: 22px;
+			}
+
+			.footer .copyright .jba {
+				width: .5625rem/* 18px */;
+				margin: 0 .15625rem/* 5px */;
+				position: relative;
+				top: .125rem/* 4px */;
+			}
+
+			.footer-content {
+				display: none;
+			}
+
+			.footer .line {
+				display: none;
+			}
+
+			.friend {
+				display: none;
+			}
+
+			.footer .footer-logo {
+				display: none;
+			}
+
+			/*侧边导航栏*/
+			.nav-all {
+				height: 100%;
+				width: 100%;
+				position: absolute;
+				left: -150%;
+				top: 0;
+				background: #000;
+				transition: 0.5s;
+				z-index: 9999;
+				display: block;
+				overflow-y: auto;
+			}
+
+			.nav-header {
+				height: 50px;
+				overflow: hidden;
+			}
+
+			.n-logo {
+				float: left;
+			}
+
+			.n-logo a {
+				display: inline-block;
+				height: 39px;
+				width: 105px;
+				margin: 20px 20px 0 20px;
+				background: url(../image/logo-o.png) no-repeat;
+				background-size: 100%;
+			}
+
+			.n-close {
+				float: right;
+				width: 20px;
+				height: 20px;
+				background: url(../image/close.png) no-repeat;
+				background-size: 100%;
+				margin: 20px;
+				cursor: pointer;
+			}
+		}
+
+		@media screen and (max-width: 1200px) and (min-width: 768px) {
+			.container {
+				width: 750px;
+			}
+
+			.footer-content ul li {
+				margin: 0 3% 0 0;
+			}
+
+			.footer-content ul li.left {
+				margin-left: 0;
+			}
+
+			.footer .copyright {
+				font-size: 12px;
+			}
+			.footer .footer-logo span.logo-img {
+				margin-left: 0;
+			}
+		}
+
+

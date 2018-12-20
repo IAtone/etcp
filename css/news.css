@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+h1 {
+	font-size: 30px;
+	margin: 20px 20px 10px;
+    font-weight: normal;
+}
+
+#news p {
+	padding: 0 20px !important;
+}
+
+.moretime {
+	margin: 20px 20px 30px;
+	font-size: 14px;
+}

@@ -1,0 +1,178 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.header {
+	display: none;
+}
+
+/*.header {
+	max-width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	margin: 15px 0 0 20px;
+	float: left;
+}
+
+.logo a {
+	display: inline-block;
+	background: url(../image/logo-o.png) no-repeat;
+	height: 52px;
+	width: 142px;
+	}*/
+
+	/*.micon {
+		float: right;
+		height: 20px;
+		width: 20px;
+		background: url(../image/i-menu.png) no-repeat;
+		display: none;
+		margin: 18px 16px 0 0;
+		cursor: pointer;
+	}*/
+
+	.social {
+		height: 520px;
+		background: url(../image/duty_ding01.png) no-repeat;
+		margin-bottom: 50px;
+		background-size: cover;
+	}
+
+	.social h2 {
+		padding: 160px 0 0 15%;
+		color: #fff;
+		font-size: 36px;
+		font-weight: normal;
+	}
+
+	.social p {
+		color: #fff;
+		font-size: 30px;
+		margin-top: 10px;
+		margin-left: 15%;
+	}
+
+
+	.title {
+		text-align: center;
+		color: #333;
+		margin-bottom: 50px;
+	}
+
+	.title h3 {
+		font-size: 28px;
+	}
+
+	.duty-content p {
+		margin-top: 10px;
+	}
+
+	.title .duty-line {
+		width: 100px;
+		height: 2px;
+		background-color: #3494ff;
+		display: inline-block;
+	}
+
+	.text {
+		width: 80%;
+		line-height: 24px;
+		margin: 0 auto;
+		margin-bottom: 50px;
+		color: #666;
+		text-align: left;
+	}
+
+	.img img {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+/*.resolve .img {
+	background: url(../image/duty02.png) no-repeat;
+} 
+
+.improve .img {
+	background: url(../image/duty03.png) no-repeat;
+}
+
+.welfare .img {
+	background: url(../image/duty04.png) no-repeat;
+	}*/
+
+	.nav-all {
+		display: none;
+	}
+
+	@media screen and (max-width: 767px) {
+		/*.micon {
+			display: block;
+			height: 20px;
+			width: 20px;
+			background-size: 100%;
+			margin: 18px 16px 0 0;
+		}*/
+		.nav-all {
+			display: block;
+		}
+		.header {
+			display: block;
+		}
+		.header-navbar {
+			display: none;
+		}	
+
+		.social {
+			height: 16.25rem/* 520px */;
+			background: url(../image/duty_ding01.png) no-repeat;
+			margin-bottom: 1.5625rem/* 50px */;
+		}
+
+		.social h2 {
+			padding: 3.125rem/* 100px */ 0 0 15%;
+			font-size: 30px;
+		}
+
+		.social p {
+			color: #fff;
+			font-size: .9375rem/* 30px */;
+			margin-top: .3125rem/* 10px */;
+			margin-left: 15%;
+		}
+
+		.title {
+			margin-bottom: 1.5625rem/* 50px */
+		}
+
+		.title h3 {
+			font-size: 20px;
+		}
+
+		.title .duty-line {
+			width: 3.125rem/* 100px */;
+		}
+
+		.text {
+			margin-bottom: 1.5625rem/* 50px */
+		}
+
+		.img img {
+			height: 12.09375rem/* 387px */;
+		}
+
+	}
+

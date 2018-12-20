@@ -1,0 +1,554 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.owner-top {
+	height: 520px;
+	background: url(../image/owners_banner.png) no-repeat;
+	background-size: cover;
+}
+
+.header {
+	display: none;
+}
+
+.micon {
+	float: right;
+	height: 20px;
+	width: 20px;
+	background: url(../image/i-menu.png) no-repeat;
+	display: none;
+	margin: 18px 16px 0 0;
+	cursor: pointer;
+}
+
+.download-wrapper {
+	padding: 100px 0 0 50px;
+}
+
+.download-wrapper h1 {
+	font-size: 55px;
+	margin: 20px 0 10px;
+	font-weight: normal;
+}
+
+.download-wrapper h3 {
+	margin: 20px 0 10px;
+	font-size: 30px;
+	letter-spacing: 5px;
+	font-weight: normal;
+}
+
+.download {
+	margin-top: 30px;
+	width: 420px;
+	overflow: hidden;
+	height: auto;
+}
+
+.download>img {
+	width: 143px;
+	margin-top: 20px;
+	float: left;
+}
+
+.app {
+	width: 200px;
+	height: 60px;
+	border: solid 2px #C5BFBB;
+	background: #403F43 url(../image/owners_p1_icon.png) 20px 8px no-repeat;
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 16px;
+	color: #fff;
+	line-height: 56px;
+	float: left;
+	margin: 20px 20px 0 20px;
+	text-indent: 18px;
+}
+
+.app a {
+	width: 200px;
+	height: 52px;
+	display: block;
+	text-indent: 5em;
+}
+
+.download .android {
+	background: #403F43 url(../image/owners_p1_icon.png) 24px -108px no-repeat;
+}
+
+.bigapp {
+	width: 60%;
+	margin-top: 40px;
+	text-align: center;
+	margin: 50px auto;
+	background: rgba(0,0,0,0.5);
+	height: 60px;
+	border: solid 2px #C5BFBB;
+	border-radius: 16px;
+	color: #fff;
+	line-height: 56px;
+	display: none;
+}
+
+/*轮播图主区域*/
+.owner-content {
+	height: 635px;
+	width: 790px;
+	padding-top: 100px;
+	margin: 0 auto;
+}
+
+.phone-show {
+	width: 218px;
+	height: 452px;
+	float: left;
+	background: url(../image/owners_phone_bg.png) 0 0 no-repeat;
+}
+
+.phone-show li {
+	display: none;
+}
+
+.phone-show li a img {
+	width: 192px;
+	border: solid 1px #b8b8b8;
+	display: block;
+	margin: 50px 0 50px 13px;
+}
+
+.text-show {
+	width: 416px;
+	float: right;
+}
+
+.text-title {
+	height: 100px;
+}
+
+.text-title p {
+	width: 86px;
+	cursor: pointer;
+	float: left;
+	font-size: 14px;
+	padding-bottom: 15px;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.text-icon {
+	display: inline-block;
+	width: 46px;
+	height: 46px;
+	margin-bottom: 15px;
+	opacity: 0.5;
+	/*background: url(../image/owners_icon.png) -254px 0 no-repeat;*/
+}
+
+.icon-active {
+	opacity: 1;
+}
+
+.line-active {
+	border-bottom: solid 3px #3494ff;
+}
+
+.icon1 {
+	background: url(../image/owners_icon.png) -254px 0 no-repeat;
+}
+
+.icon2 {
+	background: url(../image/owners_icon.png) -254px -80px no-repeat;
+}
+
+.icon3 {
+	background: url(../image/owners_icon.png) -254px -160px no-repeat;
+}
+
+.icon4 {
+	background: url(../image/owners_icon.png) -254px -240px no-repeat;
+}
+
+.txt {
+	font-size: 14px;
+	padding-bottom: 15px;
+	color: #000;
+	display: inline-block;
+	height: 16px;
+	width: 86px;
+}
+
+.icon-line {
+	height: 1px;
+	width: 90%;
+	background: #818181;
+}
+
+.text-content {
+	display: none;
+}
+
+.text-active {
+	display: block;
+}
+
+.text-content h3{
+	font-size: 34px;
+	padding: 25px 0 10px;
+	white-space: pre-line;
+	color: #333;
+	font-weight: normal;
+}
+
+.text-content p {
+	font-size: 24px;
+	color: #999;
+}
+
+.gray {
+	background: rgb(247,247,247);
+}
+
+.gray .phone-show {
+	float: right;
+}
+
+.gray .text-show {
+	float: left;
+}
+
+.gray .icon-line {
+	width: 65%;
+}
+
+.icon5 {
+	background: url(../image/owners_icon.png) -254px -320px no-repeat;
+}
+
+.icon6 {
+	background: url(../image/owners_icon.png) -254px -400px no-repeat;
+}
+
+.icon7 {
+	background: url(../image/owners_icon.png) -254px -480px no-repeat;
+}
+
+.white .icon-line {
+	width: 65%;
+}
+
+.icon8 {
+	background: url(../image/owners_icon.png) -254px -560px no-repeat;
+}
+
+.icon9 {
+	background: url(../image/owners_icon.png) -254px -640px no-repeat;
+}
+
+.icon10 {
+	background: url(../image/owners_icon.png) -254px -720px no-repeat;
+}
+
+/*app下载展示区域*/
+/*.download-app-title {
+	margin: 50px 0 20px;
+	height: 80px;
+	text-align: center;
+}
+
+.download-app-title h2 {
+	font-size: 28px;
+	font-weight: normal;
+	color: #000;
+}
+
+.download-app-title p {
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: #000;
+}
+
+.download-app-title .blue-line {
+	background-color: #3494ff;
+	width: 100px;
+	height: 2px;
+	display: inline-block;
+}
+*/
+.download-app-content ul {
+	height: 453px;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.download-app-content ul li {
+	margin: 60px 0 115px 30px;
+	border: 1px solid #dedede;
+	float: left;
+	height: 280px;
+}
+
+.download-app-content ul li a {
+	display: inline-block;
+	width: 278px;
+	height: 278px;
+}
+
+.app1 {
+	background: url(../image/owners_p5_img1.jpg) no-repeat;
+}
+
+.app2 {
+	background: url(../image/newEwm1.png) no-repeat;
+}
+
+.app3 {
+	background: url(../image/owners_p5_img2.png) no-repeat;
+}
+
+.app1:hover {
+	background: url(../image/owners_p5_img1_a.jpg) no-repeat;
+}
+
+.app2:hover {
+	background: url(../image/newEwm2.png) no-repeat;
+}
+
+.app3:hover {
+	background: url(../image/owners_p5_img2_a.jpg) no-repeat;
+}
+
+/*更多APP*/
+
+.more-app {
+	width: 300px;
+	margin: 30px auto;
+	height: 90px;
+}
+
+.more-app ul li {
+	text-align: center;
+	float: left;
+	width: 100px;
+}
+
+.more-app ul li p {
+	line-height: 40px;
+	color: #000;
+}
+
+.app-img {
+	text-align: center;
+}
+
+.appdown {
+	text-align: center;
+	display: none;
+}
+
+.appdown img {
+	width: 140px;
+	margin-bottom: 10px;
+}
+
+.appdown p {
+	font-size: 12px;
+	color: #b2b2b2;
+}
+
+.appdown a {
+	display: block;
+	width: 70%;
+	line-height: 40px;
+	border: solid 1px #3494ff;
+	color: #3494ff;
+	border-radius: 5px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.nav-all {
+	display: none;
+}
+
+@media screen and (min-width: 767px) and (max-width: 980px){
+	.download-wrapper {
+		padding: 3.125rem/* 100px */ 0 0 1.5625rem/* 50px */;
+	}
+
+	.download-wrapper h1 {
+		font-size: 33px;
+	}
+
+	.download-wrapper h3 {
+		font-size: 28px;
+	}
+	
+	.app {
+		display: none;
+	}
+
+	.bigapp {
+		margin-top: 30px;
+		clear: both;
+		display: block;
+	}
+
+	.container .owner-content {
+		height: 750px;
+		position: relative;
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	.container .text-show {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.phone-show {
+		float: none;
+		position: absolute;
+		left: 35%;
+		top: 35%;
+	}
+
+	.three .text-show {
+		width: 33%;
+	}
+
+	.three .icon-line {
+		width: 100%;
+	}
+
+	.text-content h3 {
+		font-size: 25px;
+	}
+
+	.text-content p {
+		display: none;
+	}
+	.appdown {
+		display: block;
+	}
+
+	.download-app-content {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.header {
+		display: block;
+	}
+	.header-navbar {
+		display: none;
+	}
+	.download-wrapper {
+		padding: 3.125rem/* 100px */ 0 0 1.5625rem/* 50px */;
+	}
+
+	.download-wrapper h1 {
+		font-size: 1.03125rem/* 33px */
+	}
+
+	.download-wrapper h3 {
+		font-size: .875rem/* 28px */
+	}
+	
+	.app {
+		display: none;
+	}
+
+	.app-img img {
+		width: 100%;
+	}
+
+	.text-title p {
+		width: 72px;
+	}
+
+	.text-title span.txt {
+		width: 72px;
+	}
+
+	.bigapp {
+		margin-top: 20px;
+		clear: both;
+		display: block;
+	}
+
+	.owner-content {
+		width: 100%;
+		height: 750px;
+		position: relative;
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	.container .text-show {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.text-title {
+		width: 78%;
+		margin: 0 auto;
+	}
+
+	.phone-show {
+		float: none;
+		position: absolute;
+		left: 21%;
+		top: 35%;
+	}
+
+	.text-show {
+		width: 100%;
+	}
+
+	.three .text-show {
+		width: 100%;
+	}
+
+	.three .text-title {
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	.icon-line {
+		width: 100%;
+	}
+
+	.three .icon-line {
+		width: 100%;
+	}
+
+	.text-content h3 {
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.text-content p {
+		display: none;
+	}
+	.appdown {
+		display: block;
+	}
+
+	.download-app-content {
+		display: none;
+	}
+}

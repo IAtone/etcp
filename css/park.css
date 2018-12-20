@@ -1,0 +1,543 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-bottom: 10px;
+}
+
+/*顶部轮播图*/
+.park-top {
+	height: 520px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.header {
+	display: none;
+}
+
+/*.micon {
+	float: right;
+	height: 20px;
+	width: 20px;
+	background: url(../image/i-menu.png) no-repeat;
+	display: none;
+	margin: 18px 16px 0 0;
+	cursor: pointer;
+}
+*/
+ul.leftBan {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 400%;
+	overflow: hidden;
+	float: left;
+	transition: 0.5s;
+}
+
+ul.leftBan li {
+	float: left;
+	height: 520px;
+	width: 25%;
+}
+
+ul.leftBan li.top-li1 {
+	background: url(../image/parking_banner1.png) no-repeat center center;
+	background-size: cover;
+}
+
+ul.leftBan li.top-li2 {
+	background: url(../image/parking_banner2.png) no-repeat center center;
+	background-size: cover;
+}
+
+.park-top .top-text {
+	padding-left: 2%;
+	padding-right: 2%;
+	border-top: 2px solid #bbb;
+	border-bottom: 2px solid #bbb;
+	margin: 15% auto 10%;
+	color: #fff;	
+	width: 60%;
+
+}
+
+.top-text h1 {
+	font-size: 63px;
+	font-weight: normal;
+}
+
+.top-text h3 {
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.prev-next {
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 10%;
+}
+
+.prev-next span {
+	width: 40px;
+	height: 8px;
+	opacity: 0.8;
+	border: 1px solid #fff;
+	cursor: pointer;
+	margin: 0 5px;
+	display: inline-block;
+	border-radius: 4px;
+}
+
+.prev-next .pn-active {
+	background: #fff;
+}
+
+
+/*.park-banner .prev-next {
+	bottom: 10%;
+	right: 20%;
+	position: absolute;
+	}*/
+
+	/*固定导航栏*/
+	.fix-wrapper {
+		background: #f1f1f1;
+		width: 100%;
+	}
+
+	.fix-wrapper .fix-nav a {
+		background: #f1f1f1;
+		color: #000;
+	}
+
+	.fix-nav a:hover {
+		color: #000;
+	}
+
+	.fix-wrapper .fix-nav .fix-nav-active {
+		background: #1B82E2;
+		color: #fff;
+	}
+
+	.fix-wrapper ul li {
+		float: none;
+		display: inline-block;
+	}
+
+	/*车场首页*/
+	.main-case {
+		display: none;
+	}
+
+	/*轮播图*/
+	.park-banner {
+		position: relative;
+		height: 520px;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.park-banner ul.leftBan {
+		width: 600%;
+	}
+
+	.park-banner ul.leftBan li {
+		width: 16.666666%;
+	}
+
+	.bot-li1 {
+		background: url(../image/parking_p2_img1.png) no-repeat;
+		background-size: cover;
+	}
+
+	.bot-li2 {
+		background: url(../image/parking_p2_img2.png) no-repeat;
+		background-size: cover;
+	}
+
+	.bot-li3 {
+		background: url(../image/parking_p2_img3.jpg) no-repeat;
+		background-size: cover;
+	}
+
+	.small {
+		height: 450px;
+		width: 700px;
+		margin: 20px auto 0;
+	}
+
+	.marTop {
+		margin-top: 20px;
+	}
+
+	.public-park {
+	}
+
+	.public-park a {
+		float: left;
+		padding: 0 10px;
+		margin: 20px auto 0;
+		width: 25%;
+		position: relative;
+	}
+
+	.public-park a:hover div,
+	.public-park a:hover span {
+		opacity: 1;
+		transform: scale(1,1);
+	}
+
+	.public-park .text-box {
+		position: absolute;
+		top: 1px;
+		left: 10px;
+		right: 10px;
+		bottom: 4px;
+		background: rgba(0,0,0,0.7);
+		opacity: 0;
+		transform: scale(0.2,0.2);
+		transition: 0.5s;
+	}
+
+	.public-park a img {
+		width: 100%;
+	}
+
+	.text-box span {
+		color: #fff;
+		width: 135px;
+		font-size: 20px;
+		border: 2px solid #fff;
+		padding: 10px;
+		position: absolute;
+		top: 50%;
+		margin-top: -25px;
+		left: 50%;
+		margin-left: -65px;
+		transform: scale(0.2,0.2);
+		text-align: center;
+	}
+
+	/*案例中心*/
+	.case {
+		padding: 3% 0;
+	}
+
+	.case-title {
+		width: 75%;
+		margin: 0 auto;
+	}
+
+	.case-title a.blue {
+		color: #1b82e2;
+	}
+
+	.case-title a {
+		display: inline-block;
+		padding-top: 10px;
+		width: 105px;
+		font-size: 16px;
+		color: #333;
+		text-align: center;
+	}
+
+	.case-wrapper {
+		display: none;
+		height: auto;
+		overflow: hidden;
+		margin: 50px 0 40px;
+		text-align: center;
+	}
+
+	.case-img {
+		padding: 0px 10px;
+		width: 25%;
+		float: left;
+		margin-bottom: 20px;
+	}
+
+	.case-img a {
+		display: inline-block;
+		border: 1px solid #f1f1f1;
+	}
+
+	.case-text {
+		padding: 9px;
+		color: #333;
+		text-align: center;
+		font-size: 14px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+
+	.case-bottom {
+		clear: both;
+		height: 100px;
+		text-align: center;
+	}
+
+	/*查看更多*/
+	.more {
+		width: 142px;
+		height: 38px;
+		margin: 30px auto 60px;
+		line-height: 38px;
+		text-align: center;
+		border-radius: 2px;
+		border: solid 1px #000000;
+		clear: both;
+		cursor: pointer;
+		display: none;
+	}
+
+	.more a {
+		color: #272727;
+	}
+
+	.case-bottom a {
+		display: inline-block;
+		height: 30px;
+		line-height: 30px;
+		padding: 0 10px;
+		margin: 0 2px;
+		color: #428bca;
+		border: 1px solid #bfbfbf;
+		border-radius: 4px;
+	}
+
+	.case-bottom a.case-active {
+		color: #fff;
+		background: #428bca;
+		border: 1px solid #428bca;
+	}
+
+	/*加入我们*/
+	.joinUs {
+		background: #eee;
+		margin-top: 100px;
+		padding-bottom: 5%;
+	}
+
+	/*表单*/
+	form {
+		width: 505px;
+		margin: 80px auto;
+	}
+
+	form ul li {
+		width: 100%;
+	}
+
+	form ul {
+		overflow: hidden;
+		height: auto;
+	}
+
+	form ul li span {
+		width: 90px;
+		float: left;
+		margin-top: 22px;
+		display: inline-block;
+		text-align: right;
+		padding-right: 15px;
+	}
+
+	form ul li.li1 select {
+		width: 188px;
+		float: left;
+		line-height: 40px;
+		height: 40px;
+		margin: 10px 0;
+	}
+
+	form ul li.li1 select.city1 {
+		margin-right: 4%;
+	}
+
+	form ul li span b {
+		color: red;
+	}
+
+	form ul li input {
+		width: 400px;
+		line-height: 40px;
+		height: 40px;
+		margin: 10px 0;
+		padding: 6px 12px;
+		font-size: 14px;
+		background: #fff;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+	}
+
+	form .button {
+		text-align: center;
+	}
+
+	form button {
+		width: 282px;
+		height: 47px;
+		border: none;
+		background: #3494ff;
+		color: #fff;
+		line-height: 47px;
+		text-align: center;
+		margin: 20px auto;
+		cursor: pointer;
+		border-radius: 5px;
+	}
+
+	.nav-all {
+		display: none;
+	}
+
+	@media screen and (max-width: 767px) {
+		/*轮播图*/
+		.park-top .top-text {
+			margin-top: 30%;
+		}
+
+		.top-text h1 {
+			font-size: 26px;
+			text-align: center;
+		}
+
+		.top-text h3 {
+			font-size: 16px;
+			text-align: center;
+		}
+		/*.micon {
+			display: block;
+			height: 20px;
+			width: 20px;
+			background-size: 100%;
+			margin: 18px 16px 0 0;
+		}*/
+		.header-navbar {
+			display: none;
+		}
+		.header {
+			display: block;
+			z-index: 222;
+		}
+		.public-park a {
+			width: 50%;
+		}
+
+		.small {
+			width: 100%;
+			height: 80%;
+		}
+
+		.small .content-img img {
+			width: 50%;
+		}
+
+		.small .content-img {
+
+			text-align: center;
+		}
+
+		.case-img {
+			width: 50%;
+		}
+
+		.case-img img {
+			width: 100%;
+		}
+
+		.more {
+			display: block;
+		}
+
+		.case-bottom {
+			display: none;
+		}
+
+		.case-title {
+			text-align: center;
+			width: 100%;
+		}
+
+		.case-title a {
+			width: auto;
+			padding: 0 10px;
+		}
+
+		.case-wrapper {
+			margin-top: 20px;
+		}
+
+		form {
+			width: 100%;
+			margin-top: 20px;
+		}
+
+		form ul li span {
+			display: none;
+		}
+
+		form ul li.li1 select {
+			width: 40%;
+			margin-left: 5%;
+			float: left;
+		}
+
+		form ul li.li1 select.city1 {
+			margin-right: 4%;
+		}
+
+		form ul li span b {
+			color: red;
+		}
+
+		form ul li input {
+			width: 90%;
+			margin-left: 5%;
+		}
+
+		form .button {
+			text-align: center;
+		}
+
+		form button {
+			width: 282px;
+			height: 47px;
+			border: none;
+			background: #3494ff;
+			color: #fff;
+			line-height: 47px;
+			text-align: center;
+			margin: 20px auto;
+			cursor: pointer;
+			border-radius: 5px;
+			outline: none;
+		}
+
+		.fix-wrapper {
+			display: none;
+		}
+	}

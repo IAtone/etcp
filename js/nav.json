@@ -1,0 +1,32 @@
+[
+	{
+		"id" : 1,
+		"name" : "首页",
+		"url" : "index.html"
+	},
+	{
+		"id" : 2,
+		"name" : "车主",
+		"url" : "owner.html"
+	},
+	{
+		"id" : 3,
+		"name" : "停车场",
+		"url" : "park.html"
+	},
+	{
+		"id" : 4,
+		"name" : "企业合作",
+		"url" : "cooperation.html"
+	},
+	{
+		"id" : 5,
+		"name" : "社会责任",
+		"url" : "duty.html"
+	},
+	{
+		"id" : 6,
+		"name" : "关于我们",
+		"url" : "about.html"
+	}
+]
